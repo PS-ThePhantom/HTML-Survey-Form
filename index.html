@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <h1 id="title">Certificate Survey Form</h1>
+    <p id="description">Please fill out the survey form to help us improve our page</p>
+    <form id="survey-form" class="block">
+      <label for="name" id="name-label" class="block">Name: <input id="name" type="text" placeholder="Your name"
+          required /></label>
+      <label class="block" for="email" id="email-label">Email: <input class="block" id="email" type="email"
+          placeholder="Your email address" required /></label>
+      <label class="block" for="number" id="number-label">Age: <input class="block" id="number" type="number" min="10"
+          max="100" placeholder="Your age" /></label>
+      <label class="block">What would best describe your overall impression of the page:
+        <select class="block" id="dropdown">type:
+          <option>select one option</option>
+          <option>Very Bad</option>
+          <option>Bad</option>
+          <option>Neither Good or Bad</option>
+          <option>Good</option>
+          <option>Excellent</option>
+        </select>
+      </label>
+      <legend class="radio">Would you hire me to develop a simple webpage for you?
+        <label for="yes"><input type="radio" name="option" id="yes" value="yes" checked />Definately</label>
+        <label for"neutral"><input type="radio" name="option" id="neutral" value="neutral" />Not Sure</input></label>
+        <label for="no"><input type="radio" name="option" id="no" value="no" />No</label>
+      </legend>
+      <legend class="block">What can be improved on this webpage? <span>(select all that apply)</span>
+        <label><input type="checkbox" value="colors" id />Colors</label>
+        <label><input type="checkbox" value="Responsiveness" />Responsiveness</label>
+        <label><input type="checkbox" value="Accessibility" />Accessibility</label>
+        <label><input type="checkbox" value="Fonts" />Fonts</label>
+        <label><input type="checkbox" value="Other" />Other</label>
+      </legend>
+      <label for"comments" class="block">Any comments or suggestions<textarea class="block" id="comments"
+          placeholder="Your comments or Suggestion here"></textarea></label>
+      <button id="submit" type="submit">Submit</button>
+      <form>
+  </main>
+</body>
+
+</html>
