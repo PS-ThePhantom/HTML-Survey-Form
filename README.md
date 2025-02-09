@@ -6,4 +6,4 @@ This is a simple survey form and only needs a browser to view by opening the ind
 
 ## Snapshot of the page
 
-![](/Survey%20Form%20Preview.png)
+![](Preview.png)
